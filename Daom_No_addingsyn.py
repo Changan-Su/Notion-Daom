@@ -9,7 +9,7 @@ import time
 app = Flask(__name__)
 
 # Notion API 配置
-NOTION_API_KEY = "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"
+NOTION_API_KEY = "API KEY"
 RELATION_PROPERTY_NAME = "Fiarybase"  # Database A 里的 Relation 属性名称
 FIARY_MARKER = "%Fiary"  # 用于查找的标记
 
