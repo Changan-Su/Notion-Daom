@@ -6,8 +6,8 @@ import time
 app = Flask(__name__)
 
 # ========== Notion 配置 ==========
-NOTION_API_KEY = "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"
-MAPPING_DATABASE_ID = "1a6f3c4a-351e-806a-90cb-e53c17e53f8b"  # 请替换为实际 Button Mapping 数据库ID
+NOTION_API_KEY = "YOU KEY"
+MAPPING_DATABASE_ID = "MAPPING ID"  # 请替换为实际 Button Mapping 数据库ID
 HEADERS = {
     "Authorization": f"Bearer {NOTION_API_KEY}",
     "Content-Type": "application/json",
